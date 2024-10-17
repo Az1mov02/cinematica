@@ -1,0 +1,48 @@
+.premia
+  position: relative
+
+.premia__blocks
+  display: flex
+  justify-content: space-between
+  align-items: center
+  position: absolute
+  z-index: 3
+  top: 25%
+  left: 25%
+  +medium
+    flex-wrap: wrap
+
+.premia__img
+  background: url('../../img/premia.png') 0 0 no-repeat
+  height: 550px
+  background-size: cover
+  max-width: 1110px
+  opacity: 0.2
+  z-index: 1
+  +medium
+    background: none
+
+
+.gold__text
+  color: $colorMain
+  font-size: 72px
+  line-height: 1.36
+  font-weight: 700
+  padding-right: 103px
+  +medium
+    padding-right: 60px
+  +small
+    padding-right: 30px
+
+.premia__stars
+  display: flex
+
+.premia__block
+  max-width: 540px
+
+.premia__text
+  color: #ffffff
+  font-size: 36px
+  line-height: 1.5
+  font-weight: 700
+
